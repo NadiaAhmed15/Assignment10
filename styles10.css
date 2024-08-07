@@ -11,13 +11,17 @@ body {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    
+   
+    width: 300px;
+    margin: 0 auto;
 }
 
 label {
     margin-bottom: 10px;
     font-weight: bold;
+    display: block;
+   
 }
 
 input[type="text"],
@@ -26,10 +30,12 @@ select {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color:rgb(42, 168, 42);
     color: white;
     padding: 15px 20px;
     border: none;
@@ -42,7 +48,7 @@ input[type="submit"]:hover {
 }
 
 .dropdown-container {
-    display: flex;
+  
     flex-direction: column;
     background-color: white;
     padding: 10px;
