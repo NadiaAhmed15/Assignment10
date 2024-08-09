@@ -1,5 +1,9 @@
 body {
+  
     font-family: Arial, sans-serif;
+   height: 100vh;
+   position: relative;
+
 }
 
 .form-container {
@@ -84,4 +88,10 @@ input[type="submit"]:hover {
 
 .checkbox {
     display: none;
+}
+.kara{
+    position: absolute;
+left: 50%;
+  translate: -50%;
+  top: 15%;
 }
